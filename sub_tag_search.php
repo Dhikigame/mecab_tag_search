@@ -22,7 +22,7 @@ function sub_tag_search($word, $sports_num){
 			$tag[$j] = "野球";
 			$j++;
 		}
-		if($word == "NPB" || $word == "プロ野球" || $word == "12球団" || $word == "オールスター" || $word == "野球ファン"){
+		if($word == "NPB" || $word == "プロ野球" || $word == "12球団" || $word == "オールスター" || $word == "ファン"){
 			$tag[$j] = "プロ野球";
 			$j++;
 		}
@@ -192,7 +192,7 @@ function sub_tag_search($word, $sports_num){
 			$tag[$j] = "Jリーグ";
 			$j++;
 		}
-		if($word == "海外サッカー" || $word == "W杯" || $word == "ワールドカップ" || $word == "ACL" || $word == "AFCチャンピオンズリーグ"  || $word == "アジアカップ"){
+		if($word == "海外サッカー" || $word == "W杯" || $word == "ワールドカップ" || $word == "ACL" || $word == "AFCチャンピオンズリーグ" || $word == "アジアカップ" || $word == "日本代表"){
 			$tag[$j] = "海外サッカー";
 			$j++;
 		}
@@ -216,7 +216,7 @@ function sub_tag_search($word, $sports_num){
 			$tag[$j] = "横浜FM";
 			$j++;
 		}
-		if($word == "ガンバ大阪" || $word == "G大阪" || $word == "ガンバ"){
+		if($word == "ガンバ大阪" || $word == "G大阪" || $word == "ガンバ" || $word == "Ｇ大阪"){
 			$tag[$j] = "Jリーグ";
 			$j++;
 			$tag[$j] = "G大阪";
@@ -234,7 +234,7 @@ function sub_tag_search($word, $sports_num){
 			$tag[$j] = "新潟";
 			$j++;
 		}
-		if($word == "セレッソ大阪" || $word == "C大阪" || $word == "セレッソ"){
+		if($word == "セレッソ大阪" || $word == "C大阪" || $word == "セレッソ" || $word == "Ｃ大阪"){
 			$tag[$j] = "Jリーグ";
 			$j++;
 			$tag[$j] = "C大阪";
