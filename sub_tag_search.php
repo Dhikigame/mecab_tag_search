@@ -192,7 +192,7 @@ function sub_tag_search($word, $sports_num){
 			$tag[$j] = "Jリーグ";
 			$j++;
 		}
-		if($word == "海外サッカー" || $word == "W杯" || $word == "ワールドカップ" || $word == "ACL" || $word == "AFCチャンピオンズリーグ" || $word == "アジアカップ" || $word == "日本代表" || $word == "Ｕ－１６" || $word == "U-16" || $word == "アジア選手権"){
+		if($word == "海外サッカー" || $word == "W杯" || $word == "ワールドカップ" || $word == "ACL" || $word == "AFCチャンピオンズリーグ" || $word == "アジア" || $word == "アジアカップ" || $word == "日本代表" || $word == "Ｕ－１６" || $word == "U-16" || $word == "アジア選手権"){
 			$tag[$j] = "海外サッカー";
 			$j++;
 		}
