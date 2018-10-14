@@ -104,7 +104,7 @@ function sub_tag_search($word, $sports_num){
 		}
 
 		/***	ソフトバンク		***/
-		if($word == "ソフトバンク" || $word == "福岡ソフトバンクホークス" || $word == "ホークス" || $word == "福岡ソフトバンク" || $word == "SB" ){
+		if($word == "ソフトバンク" || $word == "福岡ソフトバンクホークス" || $word == "ホークス" || $word == "福岡ソフトバンク" || $word == "ソフトＢ" || $word == "ソフトB" || $word == "SB" ){
 			$tag[$j] = "プロ野球";
 			$j++;
 			$tag[$j] = "パ・リーグ";
@@ -210,7 +210,7 @@ function sub_tag_search($word, $sports_num){
 			$tag[$j] = "FC東京";
 			$j++;
 		}
-		if($word == "横浜FM" || $word == "横浜F・マリノス" || $word == "横浜マリノス" || $word == "横浜F" || $word == "横浜M" || $word == "横浜" || $word == "横浜フリューゲルス" || $word == "マリノス" || $word == "フリューゲルス"){
+		if($word == "横浜FM" || $word == "横浜F・マリノス" || $word == "横浜マリノス" || $word == "横浜Fマリノス" || $word == "横浜F" || $word == "横浜M" || $word == "横浜" || $word == "横浜フリューゲルス" || $word == "マリノス" || $word == "フリューゲルス"){
 			$tag[$j] = "Jリーグ";
 			$j++;
 			$tag[$j] = "横浜FM";
