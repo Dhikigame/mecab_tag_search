@@ -26,6 +26,10 @@ function sub_tag_search($word, $sports_num){
 			$tag[$j] = "プロ野球";
 			$j++;
 		}
+		if($word == "侍J" || $word == "侍JAPAN" || $word == "侍ジャパン"){
+			$tag[$j] = "海外野球";
+			$j++;
+		}
 		if($word == "高校野球" || $word == "甲子園"){
 			$tag[$j] = "高校野球";
 			$j++;
