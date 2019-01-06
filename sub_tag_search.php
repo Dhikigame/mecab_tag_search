@@ -496,7 +496,7 @@ function sub_tag_search($word, $sports_num){
 			$tag[$j] = "福島";
 			$j++;
 		}
-		if($word == "グルージャ盛岡" || $word == "グルージャ" || $word == "盛岡"){
+		if($word == "いわてグルージャ盛岡" || $word == "グルージャ盛岡" || $word == "グルージャ" || $word == "盛岡" || $word == "いわて"){
 			$tag[$j] = "Jリーグ";
 			$j++;
 			$tag[$j] = "盛岡";
@@ -521,6 +521,12 @@ function sub_tag_search($word, $sports_num){
 			$j++;
 		}
 		if($word == "沼津" || $word == "アスルクラロ沼津" || $word == "アスルクラロ" ||  $word == "クラロ" ||  $word == "アスル"){
+			$tag[$j] = "Jリーグ";
+			$j++;
+			$tag[$j] = "沼津";
+			$j++;
+		}
+		if($word == "八戸" || $word == "ヴァンラーレ八戸" || $word == "ヴァンラーレ"){
 			$tag[$j] = "Jリーグ";
 			$j++;
 			$tag[$j] = "沼津";
