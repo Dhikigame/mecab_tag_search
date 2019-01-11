@@ -529,7 +529,7 @@ function sub_tag_search($word, $sports_num){
 		if($word == "八戸" || $word == "ヴァンラーレ八戸" || $word == "ヴァンラーレ"){
 			$tag[$j] = "Jリーグ";
 			$j++;
-			$tag[$j] = "沼津";
+			$tag[$j] = "八戸";
 			$j++;
 		}
 	}
