@@ -196,7 +196,7 @@ function sub_tag_search($word, $sports_num){
 			$tag[$j] = "Jリーグ";
 			$j++;
 		}
-		if($word == "海外サッカー" || $word == "W杯" || $word == "キリンチャレンジカップ" || $word == "Ｗ杯" || $word == "ワールドカップ" || $word == "ACL" || $word == "AFCチャンピオンズリーグ" || $word == "アジア" || $word == "アジアカップ" || $word == "Ｕ－１６" || $word == "Ｕ１６" || $word == "U-16" || $word == "U16" || $word == "Ｕ-２０" || $word == "U-20" || $word == "U20" || $word == "Ｕ２０"  || $word == "なでしこ" || $word == "アジア選手権"  || $word == "リーガ" || $word == "ネーションズリーグ"){
+		if($word == "海外サッカー" || $word == "W杯" || $word == "キリンチャレンジカップ" || $word == "Ｗ杯" || $word == "ワールドカップ" || $word == "ACL" || $word == "AFCチャンピオンズリーグ" || $word == "アジア" || $word == "アジア杯" || $word == "アジアカップ" || $word == "Ｕ－１６" || $word == "Ｕ１６" || $word == "U-16" || $word == "U16" || $word == "Ｕ-２０" || $word == "U-20" || $word == "U20" || $word == "Ｕ２０"  || $word == "なでしこ" || $word == "アジア選手権"  || $word == "リーガ" || $word == "ネーションズリーグ" || $word == "セリエA" || $word == "セリエ" || $word == "ブンデス" || $word == "ブンデスリーガ" || $word == "プレミア" || $word == "プレミアリーグ"){
 			$tag[$j] = "海外サッカー";
 			$j++;
 		}
@@ -496,7 +496,7 @@ function sub_tag_search($word, $sports_num){
 			$tag[$j] = "福島";
 			$j++;
 		}
-		if($word == "いわてグルージャ盛岡" || $word == "グルージャ盛岡" || $word == "グルージャ" || $word == "盛岡" || $word == "いわて"){
+		if($word == "いわてグルージャ盛岡" || $word == "グルージャ盛岡" || $word == "グルージャ" || $word == "盛岡" || $word == "いわて" || $word == "岩手"){
 			$tag[$j] = "Jリーグ";
 			$j++;
 			$tag[$j] = "盛岡";
